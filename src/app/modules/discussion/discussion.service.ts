@@ -2,4 +2,12 @@
 import { IDiscussion } from './discussion.interface';
 import { Discussion } from './discussion.model';
 
-export const DiscussionService = {};
+const getDiscussions = async (): Promise<IDiscussion[] | null> => {
+  const discussions = await Discussion.find({});
+
+  return discussions;
+};
+
+export const DiscussionService = {
+  getDiscussions,
+};

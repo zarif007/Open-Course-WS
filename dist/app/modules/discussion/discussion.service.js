@@ -9,12 +9,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const catchAsync = (fn) => (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
-    try {
-        yield fn(req, res, next);
-    }
-    catch (error) {
-        next(error);
-    }
+exports.DiscussionService = void 0;
+const discussion_model_1 = require("./discussion.model");
+const getDiscussions = () => __awaiter(void 0, void 0, void 0, function* () {
+    const discussions = yield discussion_model_1.Discussion.find({});
+    return discussions;
 });
-exports.default = catchAsync;
+exports.DiscussionService = {
+    getDiscussions,
+};

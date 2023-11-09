@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\Zarif\\Desktop\\projects\\Open-Course-WS\\logs\\winston\\infos\\.f0c31bcde26d0d18806372242c86f40141aece60-audit.json",
+    "files": [
+        {
+            "date": 1698433456860,
+            "name": "C:\\Users\\Zarif\\Desktop\\projects\\Open-Course-WS\\logs\\winston\\infos\\[2023-10-28-01]-info.log",
+            "hash": "678c5476bbaf782a2ca3387e267a8b3e19cdf0000dcd74c85185e69c69776502"
+        },
+        {
+            "date": 1699540609134,
+            "name": "C:\\Users\\Zarif\\Desktop\\projects\\Open-Course-WS\\logs\\winston\\infos\\[2023-11-09-20]-info.log",
+            "hash": "1ac02fb7807b2721c491ccac5b70a1b04dd03f7501806e297e5b95733f886f05"
+        },
+        {
+            "date": 1699542346005,
+            "name": "C:\\Users\\Zarif\\Desktop\\projects\\Open-Course-WS\\logs\\winston\\infos\\[2023-11-09-21]-info.log",
+            "hash": "a58d2f429dbc98aebb43e5eb025d767b3f3e53c7b848b58f8d6c37b382b3d280"
+        }
+    ],
+    "hashType": "sha256"
+}
